@@ -1,0 +1,110 @@
+All 188
+True positiv 104 116
+L1: 55 L2: 24 L3: 37
+True pos. not qualified reference: 22
+False 84
+0// augustine of hippo de doctrina christiana 2. 33// AVG. doctr. christ. 2. 33// 1// 21
+1// agustin de hipona de civitate dei 4. 6// AVG. civ. dei 4. 6// 1// 16
+2// aurelius augustinus hipponensis confessions 555// AVG. conf. 555// 12// augustinus hipponensis confessions 555// AVG. conf. 555// 1// 11
+4// aug. de trin. 14, 9, 12// AVG. trin. 14, 9, 12// 1// 20
+5// augustinus, contra iulianum pelag. iv 15, 78// AVG. c. Iulian. pelag. iv 15, 78// 1// 20
+6// liv. 42. 19. 36// LIV. operis maximi historici (\u2019ab urbe condita\u2019) quae exstant 42. 19. 36// 2// 3
+9// zonar. 9. 24. 8f.// ZONAR. lexicon 9. 24. 8f.// 2// 1
+12// iust. 35, 1// IVST. epitoma historiarum Philippicarum Pompei Trogi 35, 1// 2// 1
+16// vell. 2, 15, 3.// VELL. historiae Romanae 2, 15, 3.// 2// 1
+20// eutrop. 5. 3. 3.// EUTROPIUS Breviarium ab urbe condita (Paeanii translatio) 5. 3. 3.// 2// 10
+23// strabo 9. 1. 20, 398c;// STRABO MMM 9. 1. 20, 398c;// 2// 1
+25// pausan. 1. 20. 57// PAUSANIAS $2 NNN 1. 20. 57// 2// 3
+26// flor. 1. 40. 1011;// FLOR. MMM 1. 40. 1011;// 2// 1
+27// eutrop. 5. 6;// EUTROPIUS Breviarium ab urbe condita (Paeanii translatio) 5. 6;// 2// 10
+28// obseq. 56b// OBSEQ. prodigiorum libri quae exstant 56b// 2// 1
+29// infgrh 3b. 354;// ANONYMI HISTORICI (FGRH) NNN 3b. 354;// 2// 4
+33// crass. 6:23;// CRASS. orationum fragmenta a scriptoribus servata, e. g. fragm. apud CIC. orat. 6:23;// 2// 1
+37// val max. 6, 9, 6.// VAL. com. 6, 9, 6.// 2// 5
+38// gran lic 33b;// GRAN. LIC. operis historici fragmenta codice rescripto servata 33b;// 038// gran. lic. 33b;// GRAN. LIC. operis historici fragmenta codice rescripto servata 33b;// 1// 20
+42// isoc. 10 3// ISOCR. MMM 10 3// 2// 20
+43// diog. laert. 6. 15\u201318;// DIOGENES LAERTIUS MMM 6. 15\u201318;// 243// laert. 6. 15\u201318;// DIOGENES LAERTIUS MMM 6. 15\u201318;// 2// 3
+50// von milet anonymus menagii 3// RHETORICA ANONYMA Prolegomena de inventione {008} 3// 150// milet anonymus menagii 3// RHETORICA ANONYMA Prolegomena de inventione {008} 3// 150// anonymus menagii 3// RHETORICA ANONYMA Prolegomena de inventione {008} 3// 1// 20
+51// stobaios 3, 3, 25// JOANNES STOBAEUS ANTHOLOGUS Anthologium 3, 3, 25// 2// 5
+52// pausanias 16;// PAUSANIAS NNN 16;// 2// 3
+53// photius 267;// PHOTIUS MMM 267;// 2// 1
+54// suda 971// SUDA MMM 971// 2// 1
+56// boeth consol 3, 10// BOETH. cons. 3, 10// 0// 2
+57// plot. 5, 8, 4, 25// PLOTINUS NNN 5, 8, 4, 25// 2// 20
+59// philo judaeus 3, 63, 6\u20137;// PHILO JUDAEUS Hypothetica sive Apologia pro Judaeis 3, 63, 6\u20137;// 059// philo judaeus 3, 63, 6\u20137;// PHILO JUDAEUS Hypothetica sive Apologia pro Judaeis 3, 63, 6\u20137;// 1// 20
+60// chrys. 35, 1516// DIO CHRYS. MMM 35, 1516// 2// 12
+64// cic off 3, 50// CIC. off. 3, 50// 0// 3
+65// bell afr 97, 3// BELL. Afr. 97, 3// 065// bell. afr. 97, 3// BELL. Afr. 97, 3// 1// 20
+66// philostr. ap. 4, 32// LEO PHILOSOPHUS epigrammata (app. Anth.) 4, 32// 1// 9
+67// sen benef 7, 9, 2// SEN. $1 benef. 7, 9, 2// 0// 20
+68// strab geogr 14. 1. 38 646c;// STRABO Geographica 14. 1. 38 646c;// 0// 20
+69// cf. fest. brev. 11. 4;// RVF. FEST. breviarium (rerum gestarum populi Romani) 11. 4;// 1// 3
+71// cic phil 9, 4// CIC. Phil. 9, 4// 0// 4
+72// sall iug 95.// SALL. Iug. 95.// 0// 10
+73// liv per 66;// LIV. $2 perioch. 66;// 0// 4
+74// app num 4.// APPIANUS Num. 4.// 0// 20
+75// cic manil 19// CIC. Manil. 19// 0// 4
+77// suet. claud. 19// SVET. Claud. 19// 1// 2
+78// caes gall 3, 1, 2// CAES. Gall. 3, 1, 2// 0// 5
+79// cic ad q fr 1, 1, 33// CIC. ad Q. fr. 1, 1, 33// 0// 20
+83// auct vir ill 75, 3.// VIR. ill. 75, 3.// 0// 20
+84// cic font 43.// CIC. Font. 43.// 0// 20
+86// auct vir ill 75, 4.// VIR. ill. 75, 4.// 086// vir ill 75, 4.// VIR. ill. 75, 4.// 0// 20
+87// frontin str 1, 5, 18.// FRONTIN. strat. 1, 5, 18.// 0// 2
+94// auct vir ill 75. 7;// VIR. ill. 75. 7;// 0// 20
+95// sall hist 4. 69.// SALL. hist. 4. 69.// 0// 5
+100// plut sull 4, 1.// PLUT. vit. Sull. 4, 1.// 0// 20
+101// plut mar 15.// PLUT. vit. Marcell. 15.// 0101// plut mar 15.// PLUT. vit. Mar. 15.// 0// 20
+105// hom od 9. 1// HOM. Od. 9. 1// 0105// hom. od. 9. 1// HOM. Od. 9. 1// 1// 8
+106// aristot met 3. 1001b// ARISTOTELES ET CORPUS ARISTOTELICUM metaph. 3. 1001b// 0// 20
+107// plat rep 4. 427e// PLATO $1 rep. 4. 427e// 0// 16
+108// xen const ath 1// XEN. ath. 1// 0// 20
+113// plut oic 3. 1;// PLUT. vit. Cic. 3. 1;// 0// 20
+114// plut bull 1112,// PLUT. vit. Sull. 1112,// 0// 20
+115// plut fort rom 4.// PLUT. fort. Rom. 4.// 0// 20
+117// platon apologie 29d7e3// PLATO $1 ap. 29d7e3// 0// 20
+121// aristot. de partibus animalium 639a 29\u2013640a// ARISTOTELES ET CORPUS ARISTOTELICUM part. an. animalium 639a 29\u2013640a// 1// 20
+122// iambl protr 2, 3// IAMBL. $1 protr. 2, 3// 0122// iambl. protr. 2, 3// IAMBL. $1 protr. 2, 3// 1// 2
+123// athen. deipn. 5, 52, 9;// ATHENAEUS $2 NNN 5, 52, 9;// 2// 20
+125// diogenianus gramm. 6, 46, 1;// DIOGENIANUS fragmenta (001) 6, 46, 1;// 2// 4
+126// gregorius paroemiogr. 2, 70, 1; 3, 9, 1; 4, 36, 1;// GREGORIUS NNN 2, 70, 1; 3, 9, 1; 4, 36, 1;// 2// 7
+128// stob anthol 4, 1, 140; 4, 31, 46, 3;// JOANNES STOBAEUS ANTHOLOGUS Anthologium 4, 1, 140; 4, 31, 46, 3;// 0// 14
+129// apostolius 11, 51, 1;// MICHAEL APOSTOLIUS MMM 11, 51, 1;// 2// 16
+131// frg. 247// FRG. apoc. 247// 2// 5
+135// orph. arg. 1193;// ORPH. A. 1193;// 2// 15
+136// hor epist 1, 1, 28;// HOR. epist. 1, 1, 28;// 0// 7
+137// plut de capienda ex inimicis utilitate 87// PLUT. cap. ex inimic. util. 87// 0// 20
+138// plut de communibus notitiis adversus stoicos 1083// PLUT. comm. not. c. Stoic. 1083// 0// 20
+142// plat resp vii 15, 1334// PLATO $1 rep. vii 15, 1334// 0// 20
+143// plat phileb 55d\u201358c// PLATO $1 phlb. 55d\u201358c// 0// 3
+145// albinus epitome doctrinae platonicae sive \u03b4\u03b9\u03b4\u03b1\u03c3\u03ba\u03b1\u03bb\u03b9\u03ba\u03bf\u0301\u03c3 28, 1, 5;// ALBINUS NNN 28, 1, 5;// 2// 15
+151// cic att 7, 1918, 4// CIC. Att. 7, 1918, 4// 0// 15
+152// cic verr 2, 1, 102// CIC. Verr. 2, 1, 102// 0// 2
+153// aristoph ach 895928// ARISTOPHANES $2 Ach. 895928// 0// 20
+155// dig. 6, 1, 24// DIG. MMM 6, 1, 24// 2// 1
+156// inst. iust. 2, 1, 25// INST. $1 Iust. 2, 1, 25// 1// 5
+157// chrys. 7, 31// DIO CHRYS. MMM 7, 31// 2// 12
+160// colum. 3, 3, 810// COLVM. MMM 3, 3, 810// 2// 1
+161// plin epist 10, 54// PLIN. $1 epist. 10, 54// 0// 7
+162// cod iust 4, 33, 1// COD. $2 Iust. 4, 33, 1// 0// 3
+163// suet. cal. 40// SVET. Cal. 40// 1// 20
+164// plut publicola 11, 3// PLUT. vit. Publ. 11, 3// 0// 20
+165// veg mil 4, 43, 12// VEG. mil. 4, 43, 12// 0// 20
+167// ov met 11, 478536// OV. met. 11, 478536// 0// 3
+170// soph ant 332337// SOPHOCLES Antigone {014} 332337// 0// 20
+171// demosth or 56. 30// DEMOSTH. or. 56. 30// 0// 20
+172// pind. i. 2, 3942// PINDARUS NNN i. 2, 3942// 2// 20
+173// aristoph av 710711// ARISTOPHANES $2 Av. 710711// 0// 5
+174// apul. met. 11, 16// APVL. met. 11, 16// 1// 2
+175// anth pal 7, 272// ANTH. anthologiae latinae q. d. pars prior (partem posteriorem v. CE), sc. collectio carminum saec. VI facta, codice Salmasiano partim servata, a Riese post alios carminibus aliunde collectis aucta (carmina non ita pauca recentiora sunt quam ut afferantur 7, 272// 0// 20
+176// hom od 5, 270281// HOM. Od. 5, 270281// 0// 8
+179// ptol. 1, 2// CLAUDIUS PTOLEMAEUS NNN 1, 2// 2// 20
+182// varro rust 2, 3// VARRO rust. 2, 3// 0// 20
+183// athen. 5, 209b// ATHENAEUS $2 NNN 5, 209b// 2// 20
+184// vitr. 10, 2, 10// VITR. de architectura 10, 2, 10// 2// 1
+185// cato agr 22, 3// CATO agr. 22, 3// 0// 2
+186// suet. nero 31// SVET. Nero 31// 1// 2
+187// sen epist 77, 13// SEN. $1 epist. 77, 13// 0// 7
+189// q. smyrn. 1, 31823// SYMM. $1 pater Symm. epist. 1, 31823// 2// 20
+195// sulp. sev. dial. 1// SVLP. SEV. dial. 1// 1// 20
+196// suet. tit. 5// SVET. Tit. 5// 1
