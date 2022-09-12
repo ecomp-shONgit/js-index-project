@@ -332,10 +332,11 @@ function H0H1H2deep( ws, hyporange ){
                     countBinA >= dct3 ){ 
                     //console.log("- P1: ", p1.join(" "), " - P2: ", p2.join(";") );
                     //console.log(m, "TAKEN with ",maxvalues[m]," > ", allmaxes[maxvalues[m]][k][0]+" "+allmaxes[maxvalues[m]][k][1]+" "+p2.join(" ")+"("+allmaxes[maxvalues[m]][k][2]+")", countAinB, countBinA);
+                    let mmmdistval = max(countAinB,countBinA);
                     if( returndeephyp[ is ] ){
-                        returndeephyp[is].push( [maxvalues[m], allmaxes[maxvalues[m]][k][0], allmaxes[maxvalues[m]][k][1], p2, stristra] );
+                        returndeephyp[is].push( [maxvalues[m], allmaxes[maxvalues[m]][k][0], allmaxes[maxvalues[m]][k][1], p2, stristra, mmmdistval] );
                     } else {
-                        returndeephyp[is] = [[maxvalues[m], allmaxes[maxvalues[m]][k][0], allmaxes[maxvalues[m]][k][1], p2, stristra]];
+                        returndeephyp[is] = [[maxvalues[m], allmaxes[maxvalues[m]][k][0], allmaxes[maxvalues[m]][k][1], p2, stristra, mmmdistval]];
                     }
                 } else {
 
@@ -510,12 +511,12 @@ function H0H1H2ranges( ws, hypothese ){ //do not take a given subset of string a
                 let texttahtiswork = [];
                 let indexWzwei = 0;
                 for( let e = 0; e < woerterZuWe.length; e+=1 ){
-                    if( woerterZuWe[ e ] === 1 && firsteinser ){
+                    indexWzwei = indexJzwei+e;
+                    if( woerterZuWe[ e ] === 1  ){
                         texttahtiswork.push( ws[indexJzwei+e] );
                     } else {
-                        if( texttahtiswork.length !== 0 && firsteinser ){
-                            indexWzwei = e;
-                            firsteinser = false;
+                        if( texttahtiswork.length !== 0  ){
+                            break;
                         }
                     }
                 }
@@ -523,10 +524,10 @@ function H0H1H2ranges( ws, hypothese ){ //do not take a given subset of string a
                 //
                 // w2 erzeugen, nach der h0
                 if( texttahtiswork.length !== 0 ){
-                    if( indexWzwei === 0 ){ //letzte Position autor 1
-                        indexWzwei = woerterZuWe.length;
+                    /*if( indexWzwei === 0 ){ //letzte Position autor 1
+                        indexWzwei = woerterZuWe.length-texttahtiswork.length;
                     }
-                    indexWzwei += indexJzwei;
+                    indexWzwei += indexJzwei;*/
                     counth1+=1;
                     //
                     //console.log( "--------   Werk check: ",woerterZuWe , "....", texttahtiswork, ws.slice( indexJzwei, indexend ), "Naechster succhindex: ", indexWzwei, ws.slice( indexWzwei, indexend ) );
@@ -559,31 +560,32 @@ function H0H1H2ranges( ws, hypothese ){ //do not take a given subset of string a
                     let indexNzwei = 0;
                     //console.log(woerterZuNum.toString());
                     for( let e = 0; e < woerterZuNum.length; e+=1 ){
-                        if( woerterZuNum[ e ] === 1 && firsteinser ){
+                        indexNzwei = indexWzwei+e;
+                        if( woerterZuNum[ e ] === 1  ){
                             texttahtisnumber.push( ws[indexWzwei+e] );
                         } else {
-                            if( texttahtisnumber.length !== 0 && firsteinser ){
-                                indexNzwei = e;
-                                firsteinser = false;
+                            if( texttahtisnumber.length !== 0  ){
+                                break;
                             }
                         }
+                        
                     }
                     
                     
                     if( texttahtisnumber.length !== 0 ){
                         // w2 erzeugen, nach der h0
-                        if( indexNzwei === 0 ){ //letzte Position autor 1
+                        /*if( indexNzwei === 0 ){ //letzte Position autor 1
                             indexNzwei = woerterZuNum.length;
                         }
-                        indexNzwei += indexWzwei;
+                        indexNzwei += indexWzwei;*/
                         
                         //console.log( ws.slice( indexWzwei-2, indexNzwei+2 ).toString() );
                         counth2+=1;
                         
                         //do return not only as a STRINg, BUT cts and a array (?)
-                        let numbering = ws.slice( indexWzwei, indexNzwei ).join(" ");
+                        let numbering = texttahtisnumber.join(" ");
                         let tempstr = "["+AuO+" "+We+" "+ numbering +"]";
-                        //console.log( "-Nummer: ", ws.slice( indexWzwei, indexNzwei ), texttahtisnumber, woerterZuNum, ws.slice( indexWzwei, indexend ));
+                        //console.log( "-Nummer: ", numbering, woerterZuNum);
                         if( rettext.indexOf( tempstr ) === -1 ){
                             rettext += "<b>"+tempstr+"</b><br>";
                             awnARRAY.push([AuO, We, numbering]);
@@ -1213,7 +1215,7 @@ function DOREFEXT( astring ){ //EXT IS GEN!
             retasarray.push( [ergcounts[4], ergcounts[5]] ); // hier fehlt noch der String, der dazu geführt hat
             
             //build cts and hav a nice anchor to the base text and hava a list compiled
-            rettextasarray[ ergcounts[4] ] = " " + ergcounts[3] + " "+ rettextasarray[ ergcounts[4] ] ;
+            //rettextasarray[ ergcounts[4] ] = " " + ergcounts[3] + " "+ rettextasarray[ ergcounts[4] ] ;
         }
         olergcount = ergcounts;
         //safe the fast hypothesisi per point in TEXT in dict array
@@ -1249,7 +1251,7 @@ function DOREFEXT( astring ){ //EXT IS GEN!
         for(let h = allf[f][4]; h < allf[f][6]; h += 1){
             passage +=  " "+ws[h];
         }
-        conclusio.push( [1, allf[f][5][0][0],allf[f][5][0][1], allf[f][5][0][2], passage.trim() ] );
+        conclusio.push( [1, allf[f][5][0][0], allf[f][5][0][1], allf[f][5][0][2], passage.trim() ] );
     }
 
     
@@ -1268,6 +1270,18 @@ function DOREFEXT( astring ){ //EXT IS GEN!
         }
         conclusio.push([2, allcombined[1][u][2], allcombined[1][u][3], numsz.trim(), passage.trim()]);
     }
+
+    //do a LCS on the 
+    for( let c = 0; c < conclusio.length; c+=1 ){
+        let str1 = deluv( (conclusio[c][1]+" "+conclusio[c][2]+" "+conclusio[c][3] ).toLowerCase() );
+        //let le = levenshtein(str1, conclusio[c][4]);
+        //let lu = LCS(str1, conclusio[c][4]);
+        let lf = LCF(str1, conclusio[c][4])/len(str1);
+        //let lm = setdiffmetric(str1, conclusio[c][4]);
+        console.log( str1," MIT ", conclusio[c][4], " ERG ", lf);
+        //conclusio[c].push( LCS(str1, conclusio[c][4]) );
+    }
+
     if( showdebuggl2 ){
         console.log(conclusio);
     }
